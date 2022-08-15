@@ -10,7 +10,8 @@
         "skipLibCheck": true, 
         "jsx": "preserve", //  在preserve模式下生成代码中会保留JSX以供后续的转换操作使用（比如：Babel）
         "paths": {
-            "@xin/http": ["packages/http/src/index.ts"]
+            "@xin/http": ["packages/http/src/index.ts"],
+            "@xin/ssr": ["packages/ssr/src/index.ts"],
         }
     },
     "exclude": [

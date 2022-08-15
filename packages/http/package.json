@@ -1,0 +1,15 @@
+{
+  "name": "@xin/http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && rollup -c"
+  },
+  "author": "weiyafei",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "qs": "^6.11.0"
+  }
+}
