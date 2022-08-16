@@ -29,5 +29,6 @@ module.exports = {
         "no-alert": 0,
         "no-var": 2,
         "@typescript-eslint/no-explicit-any": 0,
+        "@typescript-eslint/no-var-requires": 0
     }
 }

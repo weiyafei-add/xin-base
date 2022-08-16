@@ -36,7 +36,7 @@ function createHttp(opts?: createOption): AxiosInstance {
         return responseInterceptor(response);
       }
       // 针对业务判断
-      if (response.status === 200 && result.success) {
+      if (response.status === 200) {
         return result.hasOwnProperty("data")
           ? result.data
           : result.hasOwnProperty("datas")

@@ -6,10 +6,10 @@
   "scripts": {
     "build": "rm -rf lib && rollup -c"
   },
+  "files": ["lib", "package.json", "tsconfig.json"],
   "author": "weiyafei",
   "license": "MIT",
   "dependencies": {
-    "@xin/http": "^1.0.0",
     "axios": "^0.27.2",
     "qs": "^6.11.0"
   }
