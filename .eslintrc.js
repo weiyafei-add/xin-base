@@ -19,6 +19,11 @@ module.exports = {
     "plugins": [
         "react",
     ],
+    "settings": {
+        react: {
+            version: 'detect'
+        }
+    },
     "rules": {
         "no-undef": 0,
         "no-alert": 0,
