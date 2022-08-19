@@ -5,9 +5,16 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "scripts": {
-    "build": "rm -rf lib && rollup -c && gulp"
+    "build": "rm -rf lib es && rollup -c && gulp"
   },
-  "files": ["lib", "package.json", "tsconfig.json", "gulpfile.js"],
+  "files": [
+    "lib",
+    "package.json",
+    "tsconfig.json",
+    "gulpfile.js",
+    "rollup.config.js",
+    "es"
+  ],
   "author": "weiyafei",
   "license": "MIT",
   "dependencies": {
