@@ -42,5 +42,5 @@ const buildTs = ({stream, outDir, modules}) => {
    return res.pipe(gulp.dest(outDir))
 }
 
-exports.default = () => buildTs({stream: gulp.src('./src/*.ts'), outDir: 'glib', modules: 'commonjs' });
+exports.default = () => buildTs({stream: gulp.src('./src/*.ts'), outDir: 'lib', modules: 'commonjs' });
 

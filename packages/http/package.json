@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
+  "module": "es/index.js",
   "scripts": {
-    "build": "rm -rf lib && rollup -c"
+    "build": "rm -rf lib && rollup -c && gulp"
   },
-  "files": ["lib", "package.json", "tsconfig.json"],
+  "files": ["lib", "package.json", "tsconfig.json", "gulpfile.js"],
   "author": "weiyafei",
   "license": "MIT",
   "dependencies": {
