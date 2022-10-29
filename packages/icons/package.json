@@ -1,0 +1,25 @@
+{
+  "name": "@xin/icons",
+  "version": "1.0.0",
+  "description": "icons lib",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "build": "rimraf es && rimraf lib && gulp"
+  },
+  "files": [
+    "package.json",
+    "lib",
+    "es"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "svgo": "^2.8.0",
+    "vinyl": "^3.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2"
+  }
+}

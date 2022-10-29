@@ -1,22 +1,19 @@
 {
-    "compilerOptions": {
-        "sourceMap": false,
-        "target": "ESNext",
-        "module": "ESNext",
-        "moduleResolution": "Node", // 模块解析使用node策略
-        "baseUrl": ".",
-        "declaration": true,
-        "noImplicitAny": false,
-        "skipLibCheck": true, 
-        "jsx": "preserve", //  在preserve模式下生成代码中会保留JSX以供后续的转换操作使用（比如：Babel）
-        "paths": {
-            "@xin/http": ["packages/http/src/index.ts"],
-            "@xin/ssr": ["packages/ssr/src/index.ts"],
-        }
-    },
-    "exclude": [
-        "node_modules",
-        "lib",
-        "es",
-    ]
+  "compilerOptions": {
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node", // 模块解析使用node策略
+    "baseUrl": ".",
+    "declaration": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "jsx": "preserve", //  在preserve模式下生成代码中会保留JSX以供后续的转换操作使用（比如：Babel）
+    "paths": {
+      "@xin/http": ["packages/http/src/index.ts"],
+      "@xin/ssr": ["packages/ssr/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "lib", "es"]
 }
